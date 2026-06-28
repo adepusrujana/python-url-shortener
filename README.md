@@ -56,6 +56,9 @@ uvicorn main:app --reload --port 8001
 # API Documentation
 http://127.0.0.1:8001/docs
 
+## API Screenshot
+![Swagger UI](Desktop/urlshortener.png)
+
 # Author
 Srujana
 
