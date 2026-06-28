@@ -8,7 +8,7 @@ import string
 
 
 
-router = APIRouter()
+router = APIRouter(prefix="/url", tags=["url"])
 
 def get_db():
     db = sessionLocal()
